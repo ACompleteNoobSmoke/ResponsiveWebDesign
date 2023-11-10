@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(../images//gradient.png);
+    background-color: black;
 }
 
 #container {
@@ -19,10 +19,6 @@ body {
     ; */
 }
 
-.grid_item {
-  
-    
-}
 
 .item_1 {
     grid-row: 1 / 1;
@@ -50,7 +46,6 @@ body {
 }
 
 .item_2 {
-    border: 1px solid yellow;
     grid-column: 1 / 4;
     grid-row: 2 / 10;
     background-image: url(../images/videogameposter.jpg);
@@ -63,9 +58,8 @@ body {
 }
 
 .info_box > div:first-child > header {
-    width: 45%;
-    margin-top: 50px;
-    margin: 0 auto;
+    width: 50%;
+    margin: 0 auto;;
 }
 
 .info_box > div:first-child > header > h1 {
@@ -81,6 +75,21 @@ body {
 .info_box > div:last-child  {
     font-size: 1.3rem;
     color: red;
+    padding: 5%;
+}
+
+.item_3,
+.item_4 {
+    margin-right: 10px;
+}
+
+
+.item_6 {
+    background-color: white;
+    grid-column: span 3;
+    height: 120%;
+    margin-top: 13px;
+    text-align: center;
 }
 
 
