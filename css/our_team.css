@@ -12,7 +12,7 @@
 #team_container {
     border: 2px solid red;
     width: 80%;
-    height: 70vh;
+    height: 80vh;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +20,8 @@
 }
 
 .our_team_bio {
-    border: 2px solid green;
+    background-color: white;
+ 
 }
 
 .our_team_bio > header {
@@ -45,7 +46,31 @@
     font-size: 3rem;
 }
 
-.our_team_bio > div:first-child {
-    width: 30px;
-    height: 60%;
+.our_team_bio > div:first-of-type {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 90%;
+    height: 23%;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    padding: 30px;
+    text-align: center;
+}
+
+.team_bio_card {
+    border: 2px solid red;
+    width: 20%;
+}
+
+.team_bio_card > header {
+    text-align: center;
+    border: 1px solid greenyellow;
+    height: 90%;
+}
+
+.team_bio_card > header > img {
+    width: 80%;
+    height: 85%;
+    border-radius: 50%;
 }
