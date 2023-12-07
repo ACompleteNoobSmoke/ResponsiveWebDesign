@@ -61,16 +61,22 @@
 .team_bio_card {
     border: 2px solid red;
     width: 20%;
+    
 }
 
 .team_bio_card > header {
     text-align: center;
     border: 1px solid greenyellow;
-    height: 90%;
+    height: 65%;
 }
 
 .team_bio_card > header > img {
     width: 80%;
     height: 85%;
     border-radius: 50%;
+}
+
+.team_bio_card > h1,
+.team_bio_card > p {
+    text-align: center;
 }
