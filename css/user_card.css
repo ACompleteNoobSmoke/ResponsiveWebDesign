@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    background-color: green;
+    width: 100%;
+    height: 100vh;
+}
+
+#card_container {
+    background-color: white;
+    width: 20%;
+    height: 60%;
+    border-radius: 20px;
+    position: relative;
+}
+
+#card_container > header {
+    height: 30%;
+    background-color: blue;
+    overflow: hidden;
+}
+
+#card_container > div:first-of-type {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    border-radius: 50%;
+    top: 80px;
+    left: 80px;
+}
+
+#card_container > div:first-of-type > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#bio_container {
+    margin-top: 27%;
+    height: 51%;
+}
+
+#bio_container > h2, h3 {
+    text-align: center;
+}
+
+#bio_container > h2 {
+    color: blue;
+}
+
+#bio_container > div:last-of-type {
+    padding: 10%;
+}
+
+#bio_container > div:last-of-type > a {
+    margin-top: 5%;
+    margin-left: 28%;
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+}

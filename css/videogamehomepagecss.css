@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+#side_nav {
+    height: 100vh;
+    width: 15%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    background-color: black;
+    border-radius: 5px;
+    opacity: .9;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+}
+
+#side_nav > header {
+    margin-top: 15%;
+}
+
+#side_nav > header > h1 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#side_nav > div:first-of-type {
+    margin-top: 30%;
+}
+
+#side_nav > div:first-of-type > i {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+#side_nav > div:first-of-type > i > a {
+    text-decoration: none;
+    text-align: center;
+    line-height: 3.5;
+    color: white;
+}
+
+#side_nav > div:first-of-type > i:hover,
+#side_nav > div:first-of-type > i:hover > a{
+    color: black;
+    background-color: white;
+}
+
+#hero_user {
+    display: inline-block;
+}
+
+#hero_user,
+#hero_banner,
+#library_flex {
+    margin-left: 20%;
+}
+
+#hero_banner,
+#library_flex {
+    width: 73%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+#hero_banner {
+    height: 30%;
+    background-image: url(../images/videogameposter.jpg);
+    background-size: cover;
+}
+
+#library_flex {
+    height: 55%;
+    background-color: black;
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-y: auto;
+}
+
+.flex_item {
+    height: 80%;
+    margin: 3%;
+}
+
+.flex_item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex_item > img:hover + .flex_item > div {
+    transition: transform translateY(-10%);
+}
+
+.flex_item > div {
+    background-color: aqua;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    width: 23.5%;
+}
+
+
+
+
