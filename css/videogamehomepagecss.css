@@ -100,17 +100,24 @@
     object-fit: cover;
 }
 
-.flex_item > img:hover + .flex_item > div {
-    transition: transform translateY(-10%);
+.game_info {
+    background-color: aqua;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    transition: all .5s ease-in;
+    opacity: 0;
 }
 
-.flex_item > div {
-    background-color: aqua;
-    position: absolute;
-    top: 60%;
-    text-align: center;
-    width: 23.5%;
+
+.flex_item:hover > .game_info {
+   transform: translateY(-90%);
+   opacity: 1;
 }
+
+
+
+
 
 
 
