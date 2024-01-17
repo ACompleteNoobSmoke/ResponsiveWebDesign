@@ -67,3 +67,10 @@
     margin-right: 5%;
     background-color: brown;
 }
+
+@media screen and (max-width: 1333px) {
+
+    #contact_container > section:first-of-type > form > input {
+       font-size: 1rem;
+    }
+}
