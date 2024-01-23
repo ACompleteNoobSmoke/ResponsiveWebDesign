@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+#navbar {
+    background-color: blue;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    overflow: hidden;
+}
+
+#navbar > div {
+    display: inline-block;
+    color: white;
+    position: relative;
+}
+
+#navbar > div:first-of-type {
+    height: 100%;
+    width: 15%;
+    border-right: 1px solid white;
+}
+
+#navbar > div:first-of-type > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#navbar > div:last-of-type {
+    width: 84.5%;
+    position: absolute;
+    top: 29%;
+}
+
+#navbar > div:last-of-type > div,
+#navbar > div:last-of-type > h1 {
+    display: inline-block;
+}
+
+#navbar > div:last-of-type > div {
+    float: right;
+}
+
+#navbar > div:last-of-type > div > a {
+    color: white;
+    margin-left: 5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#navbar > div:last-of-type > div > a:hover {
+    color: blue;
+    background-color: white;
+}
+
+#contact_container {
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 7%;
+    display: flex;
+}
+
+#contact_container > div {
+    display: inline;
+    width: 50%;
+}
+
+#contact_container > div:first-of-type {
+    background-image: url(../images/programmer_pic.jpg);
+    background-size: cover;
+}
+
+#contact_container > div:last-of-type > h1,
+#contact_container > div:last-of-type > h2 {
+    text-align: center;
+    font-size: 3.2rem;
+    text-decoration: underline;
+}
+
+#contact_container > div:last-of-type > p {
+    margin-top: 5%;
+    font-size: 1.8rem;
+    padding: 18px;
+}
+
+#contact_container > div:last-of-type > div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact_container > div:last-of-type > div > a {
+    font-size: 3rem;
+    margin-left: 5rem;
+    color: blue;
+}
+
+#contact_container > div:last-of-type > div > a:visited {
+    color: blue;
+}
